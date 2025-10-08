@@ -32,7 +32,11 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="py-32 bg-gray-200">
+    <section
+      className="py-32 bg-gray-200   bg-[url('assets/ignasi_pattern_s.png')]
+        bg-repeat
+        bg-blend-multiply"
+    >
       <div className="container mx-auto px-6">
         <h3 className="text-4xl font-bold text-center mb-6 text-gray-800">
           Services
