@@ -7,7 +7,7 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Header />
+    <Header logo="src/assets/logo.png" />
     <App />
     <Footer />
   </StrictMode>

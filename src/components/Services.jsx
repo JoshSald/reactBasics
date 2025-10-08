@@ -1,4 +1,4 @@
-// Services Section
+// Services.jsx
 function createService(heading, body, image, cta) {
   return { heading, body, image, cta };
 }
